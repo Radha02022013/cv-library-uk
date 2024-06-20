@@ -53,7 +53,6 @@ public class JobSearchTest extends BaseTest {
         resultPage.accpetCookies();
         homePage.enterJobTitle(jobTitle);
         homePage.enterLocation(location);
-        resultPage.accpetCookies();
         homePage.selectDistance(distance);
         homePage.clickOnMoreSearchOptionLink();
         homePage.enterMinSalary(salaryMin);
